@@ -76,7 +76,7 @@ INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Special
 INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Specialization`,`Experience`,`Gender`,`Education`,`Image`) VALUES ('Doc008','Indira','Hinduja','General Physician',27,'Female','MBBS','DoctorFemale');
 INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Specialization`,`Experience`,`Gender`,`Education`,`Image`) VALUES ('Doc009','Kalpesh','Thakur','Dermatology',35,'Male','MBBS, MD','DoctorMale');
 INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Specialization`,`Experience`,`Gender`,`Education`,`Image`) VALUES ('Doc010','Tarun','Gupta','Dentist',38,'Male','BDS, MDS','DoctorMale');
-INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Specialization`,`Experience`,`Gender`,`Education`,`Image`) VALUES ('Doc011','Sneha','Kumar','General Physician',25,'Female','MBBS, DNB','DoctorFemale');
+INSERT INTO `healthhub`.`doctors` (`Doctor_ID`,`First_Name`,`Last_Name`,`Specialization`,`Experience`,`Gender`,`Education`,`Image`) VALUES ('Doc011','Sneha','Kumari','General Physician',25,'Female','MBBS, DNB','DoctorFemale');
 
 select * from doctors;
 

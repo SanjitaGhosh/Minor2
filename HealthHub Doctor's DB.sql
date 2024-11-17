@@ -43,6 +43,7 @@ CREATE TABLE `users` (
   `Last_Name` varchar(20) NOT NULL,
   `Date_Of_Birth` Date NOT NULL,
   `Gender` varchar(6) NOT NULL,
+  `Location` varchar(20) NOT NULL,
   PRIMARY KEY (`Phone_Number`)
 );
 
@@ -54,6 +55,7 @@ CREATE TABLE `temp_users` (
   `Phone_Number` char(10) NOT NULL,
   `Slot` char(11) NOT NULL,
   `Date` Date NOT NULL,
+  `Location` varchar(20) NOT NULL,
   `Doctor_ID` varchar(10) NOT NULL,
   PRIMARY KEY (`Slot`,`Date`,`Phone_Number`,`Doctor_ID`)
 );
